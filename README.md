@@ -1,4 +1,5 @@
-## Ultimate Go Workshop
+# Ultimate Go Workshop
+
 ## Things to have at the back of your mind
 - Engineering is about understanding cost. Every decision you make comes with a cost!
 - productivity over performance
@@ -7,7 +8,6 @@
 - latency, memory allocation, accessing data, algorithm efficiency
 
 During code reviews:
-
 - Integrity
     - all our code is doing is reading and writing to memory
     - those reads and write has to be accurate and efficient
@@ -21,4 +21,3 @@ During code reviews:
     - hiding complexity
     - it is something you refactor into
     - complexity sells
-# ultimate-go

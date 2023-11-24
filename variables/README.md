@@ -1,0 +1,12 @@
+## Variables
+- Type is everything, Type is life.
+- Type provides us two pieces of information:
+  - Size: how much memeory, how many bytes we need to read or write anything at a given time and it's representation. If we don't understand size, we don't understand cost.
+    - Go has some built-in types
+      - interger - `int` int 8, 32, 64 (precision based integers). There are times when you need precision based integeres, e.g when using the atomic instructions on if you're doing something that has to be the same size accross multiple platforms.
+      - string - `string`
+      - boolean - `bool` - A bool is one byte
+      - `float64` - 8 bytes
+- A word is a value that can change size depending on the architeture.
+- Zero value means that all memory we allocate gets intialized at least to it's zero value state. If you're not using `var` to declare variables, you're not getting zero value
+- inspiration for the Go short variable declatation operator (`:=`) comes from Pascal and C
